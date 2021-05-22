@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search_to_find</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <p>AI OBJECT FINDER</p>
+        </div>
+    </div>
+    <br>
+    
+
+    <input type="text" class="serch" id="serch" placeholder="Enter object name" aria-label="Enter object name" />
+    <button class="btn btn-outline-primary search_btn" type="button" id="button_to_search" data-mdb-ripple-color="dark" onclick="start()">
+        Search
+    </button>
+    <br>
+    <br>
+    <button class="btn btn-outline-primary generic_btn" id="status">Object Status</button>
+    <button class="btn btn-outline-primary generic_btn" id="particular_obj_detected">Part. Object Status</button>
+
+
+
+</body>
+<script src="main.js"></script>
+
+</html>

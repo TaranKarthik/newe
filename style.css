@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+body{
+    background-color: #7690da;
+    font-family: "Noto Sans KR";
+    text-align: center;
+    
+}
+canvas{
+    border: 2px solid white;
+    margin-top: 250px;
+}
+
+
+
+.header{
+	width: 100%;
+	padding: 20px;
+	background: #6a82c4;
+	
+	border-radius: 5px;
+	text-align: center;
+    border-bottom: 2px solid white;
+}
+
+.header p{
+	font-size: 30px;
+	
+	font-weight: 700;
+	color: #fff;
+}
+
+
+.serch,#button_to_search{
+    transition: 0.3s ease all;
+}
+
+.serch{
+    background-color: #7690da;
+    color: white;
+    font-size: 20px;
+    font-family: "Noto Sans KR";
+    outline: none;
+    border: 2px solid white;
+    padding: 14px;
+    width: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.serch::placeholder{
+    color: white;
+    font-size:20px;
+}
+
+.serch:hover{
+    background: white;
+    color:#7690da;
+}
+.serch:hover::placeholder{
+    color: #7690da;
+}
+#button_to_search{
+    padding:17px;
+    border: none;
+    border-radius: 0.001px;
+    font-size: 20px;
+    background-color: white;
+    color: #7690da;
+    margin-bottom:8px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+    
+    
+}
+
+
+#button_to_search:hover{
+    color: white;
+    background-color: #7690da;
+    border: 2px solid white;
+}
+.generic_btn{
+    border: 2px solid white;
+    background: #7690da;
+    color: white;
+}
+
+@media (max-width: 768px){
+    #button_to_search,.serch{
+        border-top-right-radius: 0.001px;
+        border-bottom-right-radius: 0.001px;
+        border-bottom-left-radius: 0.001px;
+        border-top-left-radius: 0.001px;
+        
+    }
+    #button_to_search:hover{
+        color: blue;
+        background-color: #a6aec2;
+    }
+  
+}
+
